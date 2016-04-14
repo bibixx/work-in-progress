@@ -1,0 +1,129 @@
+@keyframes body
+  0%
+    transform: translateX(-50%) rotate(0deg)
+  17%
+    transform: translateX(-50%) rotate(16deg)
+  34%
+    transform: translateX(-50%) rotate(21deg)
+  51%
+    transform: translateX(-50%) rotate(0deg)
+  68%
+    transform: translateX(-50%) rotate(-5deg)
+  100%
+    transform: translateX(-50%) rotate(0deg)
+
+@keyframes left-arm-upper
+  0%
+    transform: rotate(35deg)
+  17%
+    transform: rotate(60deg)
+  34%
+    transform: rotate(44deg)
+  51%
+    transform: rotate(60deg)
+  68%
+    transform: rotate(-72deg)
+  100%
+    transform: rotate(35deg)
+
+
+@keyframes left-arm-lower
+  0%
+    transform: rotate(-35deg)
+  17%
+    transform: rotate(-48deg)
+  34%
+    transform: rotate(-39deg)
+  51%
+    transform: rotate(-48deg)
+  68%
+    transform: rotate(-48deg)
+  100%
+    transform: rotate(-35deg)
+
+@keyframes right-arm-upper
+  0%
+    transform: rotate(-16deg)
+  17%
+    transform: rotate(-17deg)
+  34%
+    transform: rotate(-22deg)
+  51%
+    transform: rotate(-16deg)
+  68%
+    transform: rotate(-113deg)
+  100%
+    transform: rotate(-16deg)
+
+@keyframes right-arm-lower
+  0%
+    transform: rotate(-10deg)
+  17%
+    transform: rotate(-4deg)
+  34%
+    transform: rotate(-3deg)
+  51%
+    transform: rotate(-5deg)
+  68%
+    transform: rotate(-48deg)
+  100%
+    transform: rotate(-10deg)
+
+@keyframes trash-cont
+  68%
+    height: 420px
+    transform: rotate(0deg)
+    opacity: 0
+  68.5%
+    opacity: 1
+
+  82%
+    opacity: 1
+  83%
+    opacity: 0
+  90%
+    height: 550px
+    transform: rotate(-90deg)
+    opacity: 0
+  100%
+    height: 550px
+    transform: rotate(-90deg)
+    opacity: 0
+
+@keyframes trash
+  0%
+    opacity: 0
+  16%
+    opacity: 0
+  17%
+    opacity: 1
+  68%
+    opacity: 1
+  69%
+    opacity: 0
+  100%
+    opacity: 0
+
+.body:not(.stop)
+  $duration: 4s
+  animation: body $duration infinite linear
+
+  .left-arm-upper:not(.stop)
+    animation: left-arm-upper $duration infinite linear
+
+  .left-arm-lower:not(.stop)
+    animation: left-arm-lower $duration infinite linear
+
+  .right-arm-upper:not(.stop)
+    animation: right-arm-upper $duration infinite linear
+
+  .right-arm-lower:not(.stop)
+    animation: right-arm-lower $duration infinite linear
+
+.trash-cont2:not(.stop)
+  $duration: 4s
+  animation: trash-cont $duration infinite linear
+
+.shovel .trash:not(.stop)
+  $duration: 4s
+  animation: trash $duration infinite linear

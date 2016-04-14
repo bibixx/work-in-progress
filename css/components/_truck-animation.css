@@ -1,0 +1,12 @@
+@keyframes trunk {
+  0% {
+    transform: rotate(-60deg);
+  }
+  100% {
+    transform: rotate(-60deg);
+  }
+}
+
+.trunk.animated {
+  animation: left-arm-upper 2s infinite linear;
+}

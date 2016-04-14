@@ -1,0 +1,131 @@
+body
+  background: skyBlue
+
+  .trash-cont
+    width: 590px
+    height: 590px
+    position: absolute
+    bottom: 160px
+    left: 50%
+    margin-left: 250px
+    transform: translateX(-60%)
+    z-index: -3
+
+    .trash-cont2
+      width: 305px
+      height: 420px
+      position: absolute
+      bottom: 0px
+      left: 0px
+      transform: rotate(0deg)
+      transform-origin: bottom right
+      opacity: 0
+
+      .trash
+        transform: rotate(-35deg)
+
+  .trash
+    width: 40px
+    height: 40px
+    background: darken(#302013, 3%)
+    border-radius: 30% 80%
+    position: absolute
+    top: 0
+    right: 0
+
+  .body
+    position: absolute
+    left: 50%
+    margin-left: 200px
+    bottom: 150px
+    transform: rotate(0deg) translateX(-20%)
+    background: black
+    width: 25px
+    height: 180px
+    border-radius: 0px
+    transform-origin: bottom center
+
+    .head
+      position: absolute
+      top: -90px
+      left: -35px
+      width: 100px
+      height: 100px
+      background: black
+      border-radius: 50%
+
+    .left-arm-upper, .right-arm-upper
+      background: black
+      width: 25px
+      height: 100px
+      border-radius: 12.5px
+      position: absolute
+      top: 0
+      transform: rotate(0deg)
+      transform-origin: 12.5px 12.5px
+
+      .left-arm-lower, .right-arm-lower
+        background: black
+        width: 25px
+        height: 100px
+        border-radius: 12.5px
+        position: absolute
+        top: 75px
+        left: 0px
+        transform: rotate(-90deg)
+        transform-origin: 12.5px 12.5px
+
+        .shovel
+          background: #7a5230
+          width: 10px
+          height: 300px
+          border-radius: 5px 5px 0px 0px
+          position: absolute
+          top: 90px
+          left: -50px
+          transform: rotate(-90deg)
+          transform-origin: 5px 5px
+
+          .shovel-end
+            background: #7E7E7E
+            width: 40px
+            height: 44px
+            border-radius: 0px 0px 20px 20px
+            position: absolute
+            top: 300px
+            left: -15px
+            transform: skew(6deg)
+            transform-origin: 5px 5px
+
+            &::before
+              content: ""
+              background: rgba(0,0,0,0.4)
+              display: block
+              width: 3px
+              height: 60%
+              position: absolute
+              left: 50%
+              top: 6px
+              transform: translateX(-50%)
+
+// @media screen and (max-width: 425px)
+//   body .body
+//     margin-left: 0px
+//
+//   .terrain
+//     width: 100%
+//
+//     div
+//       display: none
+//
+//       &:nth-child(1)
+//         display: block
+//
+//       &:nth-child(2)
+//         display: block
+//         // left: 50%
+//         transform: translateX(0%)
+//         left: 30vw
+//         width: 70vw
+//         border-radius: 0px 0px 0px 5px
+//         margin: 0

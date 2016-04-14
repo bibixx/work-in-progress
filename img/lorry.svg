@@ -1,0 +1,20 @@
+<?xml version="1.0"?><svg width="620" height="360" xmlns="http://www.w3.org/2000/svg">
+ <title>Lorry</title>
+ <metadata id="metadata4477">image/svg+xmlSymbol: LastkraftwagenPurodha Blissenbachhttp://commons.mediawiki.org/wiki/Image:Zusatzzeichen_1048-12.svg</metadata>
+ <g>
+  <title>Layer 1</title>
+  <path d="m-62.191151,821.639282l0,97.72522l24.410049,0l0,-96.15741l-24.410049,-1.56781z" id="path5404" stroke-dashoffset="0" stroke-miterlimit="4" marker-end="none" marker-mid="none" marker-start="none" stroke-linecap="round" fill-rule="nonzero" fill="white"/>
+  <path d="m34.92593,819.089478l0,97.725159l24.410049,0l0,-96.15741l-24.410049,-1.567749z" id="path5425" stroke-dashoffset="0" stroke-miterlimit="4" marker-end="none" marker-mid="none" marker-start="none" stroke-linecap="round" fill-rule="nonzero" fill="white"/>
+  <g id="svg_6">
+   <path d="m185.723007,86.069l0,153.195999l241.848007,0.197998c-14.193024,11.595001 -23.053009,27.577011 -22.938019,48.554001l-240.078003,-0.143005c-2.299988,-81.380997 -117.759094,-81.103989 -120.267891,-0.470978c-17.341301,-0.129028 -19.746702,-4.068024 -19.913902,-20.042023l0,-61.088989c-0.2178,-27.300003 -3.627199,-9.279007 16.581802,-61.048996c20.7939,-55.186607 15.061398,-50.085609 33.8694,-51.509911l110.898605,-7.644096l0,0zm-48.036011,90.328003l0.957001,-65.088005l-61.737099,3.829002c-11.255096,0.753998 -11.348701,0.823997 -15.314697,13.878998l-15.793301,42.115005c-5.305702,12.917999 -4.461201,16.723999 10.050301,14.835999l81.837795,-9.570999zm461.99501,63.181992l0.117004,34.418015l-39.867004,14.112l-35.004028,-0.022003c0.142029,-19.958008 -8.151001,-36.743011 -22.856964,-48.534012l97.610992,0.026001z" id="path5439" fill-rule="evenodd" fill="#007fff"/>
+   <rect transform="matrix(0.617065 0 0 0.617065 3.20484 32.4973)" width="631.32404" height="301.70154" x="335.82718" y="12.158683" id="rect5441" fill="#007fff"/>
+   <circle transform="matrix(0.617065 0 0 0.617065 3.20484 32.4973)" cx="164" cy="412" r="77" id="circle5443" fill="#000000"/>
+   <circle transform="matrix(0.617065 0 0 0.617065 3.20484 32.4973)" cx="748" cy="412" r="77" id="circle5445" fill="#000000"/>
+   <ellipse transform="matrix(0.617065 0 0 0.617065 3.20484 32.4973)" fill="#7f7f7f" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="162" cy="412" id="svg_1" rx="24" ry="22"/>
+   <ellipse transform="matrix(0.617065 0 0 0.617065 3.20484 32.4973)" fill="#7f7f7f" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="747" cy="413" rx="24" ry="22" id="svg_3"/>
+   <circle id="svg_2" transform="matrix(0.750786 0 0 0.738028 -10.3031 -15.9125)" cx="456.592289" cy="409.757595" r="76.999878" fill="#87CEEB"/>
+   <circle id="svg_4" transform="matrix(0.617065 0 0 0.617065 3.20484 32.4973)" cx="534.45769" cy="414.061191" r="77" fill="#000000"/>
+   <ellipse id="svg_5" transform="matrix(0.617065 0 0 0.617065 3.20484 32.4973)" fill="#7f7f7f" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="533.45769" cy="415.061191" rx="24" ry="22"/>
+  </g>
+ </g>
+</svg>

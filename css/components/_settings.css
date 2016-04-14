@@ -1,0 +1,17 @@
+.settings {
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+  z-index: 5;
+  opacity: 0;
+  transition: all .2s ease-in-out;
+}
+
+.settings:hover {
+  opacity: 1;
+}
+
+.settings input[type="number"] {
+  display: inline-block;
+  width: 35px;
+}
