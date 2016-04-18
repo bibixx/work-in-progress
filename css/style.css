@@ -147,10 +147,10 @@ body {
   68.5% {
     opacity: 1;
   }
-  82% {
+  81% {
     opacity: 1;
   }
-  83% {
+  82% {
     opacity: 0;
   }
   90% {
@@ -410,29 +410,45 @@ body .body .left-arm-upper .left-arm-lower .shovel .shovel-end::before, body .bo
     transform: translateX(-50%);
   }
   .terrain > :nth-child(4) {
-    opacity: 0;
+    background: transparent;
   }
 }
 
 .truck {
-  height: 535px;
-  position: absolute;
-  bottom: 1px;
+  position: relative;
+  bottom: 480px;
   right: 0;
+  height: 480px;
+  width: auto;
+  transform: translateX(0%);
+  transition: all .5s ease-in-out;
 }
 
-.trunk {
+.truck img {
+  height: 100%;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.truck .trunk {
   display: block;
   width: 20px;
   height: 188px;
   position: absolute;
   background: #007FFF;
   z-index: 5;
-  right: 45px;
-  bottom: 205px;
+  right: 15px;
+  bottom: 180px;
   transform-origin: bottom right;
   transform: rotate(145deg);
   border-radius: 20px;
+}
+
+@media (max-width: 888px) {
+  .truck {
+    transform: translateX(-100%);
+  }
 }
 
 @keyframes trunk {
@@ -466,4 +482,41 @@ body .body .left-arm-upper .left-arm-lower .shovel .shovel-end::before, body .bo
 .truck.animated {
   animation: truck 1s infinite;
   animation-direction: alternate;
+}
+
+.sign-rear {
+  background: #838383;
+  width: 15px;
+  height: 500px;
+  position: absolute;
+  bottom: 100px;
+  right: 200px;
+  z-index: 4;
+}
+
+.sign-front {
+  background: #e8dc37;
+  bottom: 400px;
+  right: 200px;
+  transform: translateX(50%);
+  position: absolute;
+  z-index: 5;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.sign-front h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2em;
+  line-height: 1em;
+  margin: 0.1em 0;
+  vertical-align: middle;
+}
+
+.sign-front h3 {
+  text-align: center;
+  font-size: 0.9em;
+  vertical-align: middle;
+  margin-bottom: 5px;
 }

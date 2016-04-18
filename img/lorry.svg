@@ -1,20 +1,112 @@
-<?xml version="1.0"?><svg width="620" height="360" xmlns="http://www.w3.org/2000/svg">
- <title>Lorry</title>
- <metadata id="metadata4477">image/svg+xmlSymbol: LastkraftwagenPurodha Blissenbachhttp://commons.mediawiki.org/wiki/Image:Zusatzzeichen_1048-12.svg</metadata>
- <g>
-  <title>Layer 1</title>
-  <path d="m-62.191151,821.639282l0,97.72522l24.410049,0l0,-96.15741l-24.410049,-1.56781z" id="path5404" stroke-dashoffset="0" stroke-miterlimit="4" marker-end="none" marker-mid="none" marker-start="none" stroke-linecap="round" fill-rule="nonzero" fill="white"/>
-  <path d="m34.92593,819.089478l0,97.725159l24.410049,0l0,-96.15741l-24.410049,-1.567749z" id="path5425" stroke-dashoffset="0" stroke-miterlimit="4" marker-end="none" marker-mid="none" marker-start="none" stroke-linecap="round" fill-rule="nonzero" fill="white"/>
-  <g id="svg_6">
-   <path d="m185.723007,86.069l0,153.195999l241.848007,0.197998c-14.193024,11.595001 -23.053009,27.577011 -22.938019,48.554001l-240.078003,-0.143005c-2.299988,-81.380997 -117.759094,-81.103989 -120.267891,-0.470978c-17.341301,-0.129028 -19.746702,-4.068024 -19.913902,-20.042023l0,-61.088989c-0.2178,-27.300003 -3.627199,-9.279007 16.581802,-61.048996c20.7939,-55.186607 15.061398,-50.085609 33.8694,-51.509911l110.898605,-7.644096l0,0zm-48.036011,90.328003l0.957001,-65.088005l-61.737099,3.829002c-11.255096,0.753998 -11.348701,0.823997 -15.314697,13.878998l-15.793301,42.115005c-5.305702,12.917999 -4.461201,16.723999 10.050301,14.835999l81.837795,-9.570999zm461.99501,63.181992l0.117004,34.418015l-39.867004,14.112l-35.004028,-0.022003c0.142029,-19.958008 -8.151001,-36.743011 -22.856964,-48.534012l97.610992,0.026001z" id="path5439" fill-rule="evenodd" fill="#007fff"/>
-   <rect transform="matrix(0.617065 0 0 0.617065 3.20484 32.4973)" width="631.32404" height="301.70154" x="335.82718" y="12.158683" id="rect5441" fill="#007fff"/>
-   <circle transform="matrix(0.617065 0 0 0.617065 3.20484 32.4973)" cx="164" cy="412" r="77" id="circle5443" fill="#000000"/>
-   <circle transform="matrix(0.617065 0 0 0.617065 3.20484 32.4973)" cx="748" cy="412" r="77" id="circle5445" fill="#000000"/>
-   <ellipse transform="matrix(0.617065 0 0 0.617065 3.20484 32.4973)" fill="#7f7f7f" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="162" cy="412" id="svg_1" rx="24" ry="22"/>
-   <ellipse transform="matrix(0.617065 0 0 0.617065 3.20484 32.4973)" fill="#7f7f7f" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="747" cy="413" rx="24" ry="22" id="svg_3"/>
-   <circle id="svg_2" transform="matrix(0.750786 0 0 0.738028 -10.3031 -15.9125)" cx="456.592289" cy="409.757595" r="76.999878" fill="#87CEEB"/>
-   <circle id="svg_4" transform="matrix(0.617065 0 0 0.617065 3.20484 32.4973)" cx="534.45769" cy="414.061191" r="77" fill="#000000"/>
-   <ellipse id="svg_5" transform="matrix(0.617065 0 0 0.617065 3.20484 32.4973)" fill="#7f7f7f" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="533.45769" cy="415.061191" rx="24" ry="22"/>
-  </g>
- </g>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 12.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 51448)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   width="575.97375"
+   height="294.242"
+   viewBox="0 0 575.97376 294.24201"
+   overflow="visible"
+   enable-background="new 0 0 612 792"
+   xml:space="preserve"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="lorry.svg"
+   style="overflow:visible"><metadata
+     id="metadata3363"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title>Lorry</dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs3361" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview3359"
+     showgrid="false"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="181.49091"
+     inkscape:cy="157.95489"
+     inkscape:window-x="-8"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" /><title
+     id="title3337">Lorry</title><title
+     id="title3339">Layer 1</title><path
+     id="path5439"
+     d="m 161.6968,46.069003 0,153.196997 241.848,0.197 c -14.193,11.596 -23.054,27.577 -22.938,48.555 l -240.078,-0.144 C 138.2288,166.493 22.769803,166.77 20.260803,247.402 2.9198027,247.273 0.51380274,243.335 0.34680274,227.361 l 0,-61.09 c -0.218,-27.299 -3.62700004,-9.278 16.58200026,-61.048 20.794,-55.186997 15.062,-50.085997 33.869,-51.509997 l 110.898997,-7.644 0,0 z m -48.036,90.327997 0.957,-65.087997 -61.736997,3.829 c -11.255,0.754 -11.349,0.824 -15.314,13.879 l -15.793,42.114997 c -5.306,12.918 -4.461,16.724 10.05,14.836 l 81.836997,-9.571 z m 461.995,63.182 0.117,34.418 -39.867,14.112 -35.004,-0.022 c 0.143,-19.958 -8.15,-36.743 -22.856,-48.534 l 97.61,0.026 z"
+     inkscape:connector-curvature="0"
+     style="fill:#007fff" /><rect
+     id="rect5441"
+     x="186.40579"
+     y="0"
+     width="389.56799"
+     height="186.17"
+     style="fill:#007fff" /><circle
+     id="circle5443"
+     cx="80.376808"
+     cy="246.728"
+     r="47.514" /><circle
+     id="circle5445"
+     cx="440.7438"
+     cy="246.728"
+     r="47.514" /><g
+     id="g3345"
+     transform="translate(-13.979197,-251.44697)"><defs
+       id="defs3347"><rect
+         id="XMLID_1_"
+         x="262.521"
+         y="438.83301"
+         width="119.333"
+         height="106.667" /></defs><clipPath
+       id="XMLID_3_"><use
+         xlink:href="#XMLID_1_"
+         id="use3351"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" /></clipPath><path
+       clip-path="url(#XMLID_3_)"
+       d="m 322.453,439.719 c 31.928,0 57.811,25.443 57.811,56.828 0,20.842 -11.414,39.063 -28.432,48.953 -8.609,5.004 -18.653,7.875 -29.379,7.875 -10.724,0 -20.766,-2.87 -29.374,-7.872 -17.021,-9.89 -28.437,-28.112 -28.437,-48.956 10e-4,-31.385 25.883,-56.828 57.811,-56.828 z"
+       id="path3353"
+       inkscape:connector-curvature="0"
+       style="fill:#87ceeb" /></g><ellipse
+     id="svg_1"
+     cx="79.143806"
+     cy="246.728"
+     rx="14.81"
+     ry="13.576"
+     style="fill:#7f7f7f" /><ellipse
+     id="svg_3"
+     cx="440.12582"
+     cy="246.845"
+     rx="14.81"
+     ry="13.575"
+     style="fill:#7f7f7f" /><circle
+     id="svg_4"
+     cx="308.97382"
+     cy="246.60001"
+     r="47.514" /><ellipse
+     id="svg_5"
+     cx="308.35681"
+     cy="245.46701"
+     rx="14.81"
+     ry="13.576"
+     style="fill:#7f7f7f" /></svg>
