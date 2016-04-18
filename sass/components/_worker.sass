@@ -10,6 +10,7 @@ body
     margin-left: 250px
     transform: translateX(-60%)
     z-index: -3
+    +transition()
 
     .trash-cont2
       width: 305px
@@ -44,6 +45,7 @@ body
     height: 180px
     border-radius: 0px
     transform-origin: bottom center
+    +transition()
 
     .head
       position: absolute
@@ -108,24 +110,9 @@ body
               top: 6px
               transform: translateX(-50%)
 
-// @media screen and (max-width: 425px)
-//   body .body
-//     margin-left: 0px
-//
-//   .terrain
-//     width: 100%
-//
-//     div
-//       display: none
-//
-//       &:nth-child(1)
-//         display: block
-//
-//       &:nth-child(2)
-//         display: block
-//         // left: 50%
-//         transform: translateX(0%)
-//         left: 30vw
-//         width: 70vw
-//         border-radius: 0px 0px 0px 5px
-//         margin: 0
+@media (max-width: 888px)
+  body .body
+    margin-left: 0px
+  body .trash-cont
+    margin-left: 0px
+    transform: translateX(-50%)

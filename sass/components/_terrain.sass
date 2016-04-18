@@ -19,6 +19,7 @@
     margin-left: 250px
     transform: translateX(-60%)
     z-index: -1
+    +transition()
 
   & > :nth-child(3)
     background: lighten(#302013, 3%)
@@ -38,6 +39,7 @@
     left: -180px
     z-index: -2
     border-radius: 0px 0px 5px 0px
+    +transition()
 
     &::after
       content: ""
@@ -47,3 +49,10 @@
       height: 40px
       right: -180px
       background: lighten(#302013, 3%)
+
+@media (max-width: 888px)
+  .terrain > :nth-child(2)
+    margin-left: 0px
+    transform: translateX(-50%)
+  .terrain > :nth-child(4)
+    opacity: 0
