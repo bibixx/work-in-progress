@@ -484,28 +484,31 @@ body .body .left-arm-upper .left-arm-lower .shovel .shovel-end::before, body .bo
   animation-direction: alternate;
 }
 
-.sign-rear {
+.sign-pole {
   background: #838383;
   width: 15px;
-  height: 500px;
+  height: 450px;
   position: absolute;
   bottom: 100px;
-  right: 200px;
+  left: 500px;
   z-index: 4;
+  transition: all .2s ease-in-out;
 }
 
-.sign-front {
+.sign-pole .sign-front {
+  width: 230px;
   background: #e8dc37;
-  bottom: 400px;
-  right: 200px;
-  transform: translateX(50%);
+  top: 80px;
+  left: 7.5px;
+  transform: translateX(-50%);
   position: absolute;
   z-index: 5;
   padding: 15px;
   box-sizing: border-box;
+  transition: all .2s ease-in-out;
 }
 
-.sign-front h1 {
+.sign-pole .sign-front h1 {
   text-transform: uppercase;
   text-align: center;
   font-size: 2em;
@@ -514,9 +517,86 @@ body .body .left-arm-upper .left-arm-lower .shovel .shovel-end::before, body .bo
   vertical-align: middle;
 }
 
-.sign-front h3 {
+.sign-pole .sign-front h3 {
   text-align: center;
   font-size: 0.9em;
   vertical-align: middle;
   margin-bottom: 5px;
+}
+
+.sign-pole .sign-top {
+  width: 8em;
+  height: 8em;
+  position: absolute;
+  left: -4em;
+  margin-left: 7.5px;
+  top: -20px;
+}
+
+.sign-pole .sign-top-1, .sign-pole .sign-top-2, .sign-pole .sign-top-3 {
+  position: absolute;
+  background-color: #e8dc37;
+  text-align: left;
+  width: 4em;
+  height: 4em;
+  border-top-right-radius: 10px;
+  transform: rotate(-60deg) skewX(-30deg) scale(1, 0.866);
+}
+
+.sign-pole .sign-top-1:before, .sign-pole .sign-top-1:after, .sign-pole .sign-top-2:before, .sign-pole .sign-top-2:after, .sign-pole .sign-top-3:before, .sign-pole .sign-top-3:after {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+  width: 4em;
+  height: 4em;
+  border-top-right-radius: 10px;
+}
+
+.sign-pole .sign-top-1:before, .sign-pole .sign-top-2:before, .sign-pole .sign-top-3:before {
+  transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707) translate(0, -50%);
+}
+
+.sign-pole .sign-top-1:after, .sign-pole .sign-top-2:after, .sign-pole .sign-top-3:after {
+  transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
+}
+
+.sign-pole .sign-top-2 {
+  left: 0;
+  margin-left: 0;
+  top: 0;
+  background-color: #000;
+  width: 4em;
+  height: 4em;
+  z-index: 1;
+  transform: translate(5%, 9%);
+}
+
+.sign-pole .sign-top-2:before, .sign-pole .sign-top-2:after {
+  width: 4em;
+  height: 4em;
+}
+
+.sign-pole .sign-top-2 .sign-top-3 {
+  left: 0;
+  margin-left: 0;
+  top: 0;
+  width: 3.2em;
+  height: 3.2em;
+  border-top-right-radius: 5px;
+  z-index: 1;
+  transform: translate(3%, 6%);
+}
+
+.sign-pole .sign-top-2 .sign-top-3:before, .sign-pole .sign-top-2 .sign-top-3:after {
+  width: 3.2em;
+  height: 3.2em;
+  border-top-right-radius: 5px;
+}
+
+@media (max-width: 888px) {
+  .sign-pole {
+    z-index: -10;
+    bottom: 200px;
+    left: 140px;
+  }
 }
