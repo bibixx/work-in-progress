@@ -1,0 +1,19 @@
+body .content .body {
+  transform: translateX(-50%) rotate(21deg);
+}
+
+body .content .body .left-arm-upper {
+  transform: rotate(44deg);
+}
+
+body .content .body .left-arm-upper .left-arm-lower {
+  transform: rotate(-39deg);
+}
+
+body .content .body .right-arm-upper {
+  transform: rotate(-22deg);
+}
+
+body .content .body .right-arm-upper .right-arm-lower {
+  transform: rotate(-3deg);
+}
