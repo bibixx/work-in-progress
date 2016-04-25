@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Lora|Roboto);
 body, html {
   margin: 0;
 }
@@ -10,7 +11,7 @@ body .content, html .content {
 }
 
 body {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
 }
 
 .settings {
@@ -487,7 +488,7 @@ body .body .left-arm-upper .left-arm-lower .shovel .shovel-end::before, body .bo
 .sign-pole {
   background: #838383;
   width: 15px;
-  height: 450px;
+  height: 425px;
   position: absolute;
   bottom: 100px;
   left: 500px;
@@ -496,22 +497,23 @@ body .body .left-arm-upper .left-arm-lower .shovel .shovel-end::before, body .bo
 }
 
 .sign-pole .sign-front {
-  width: 230px;
+  width: 220px;
   background: #e8dc37;
   top: 80px;
   left: 7.5px;
   transform: translateX(-50%);
   position: absolute;
   z-index: 5;
-  padding: 15px;
+  padding: 10px;
   box-sizing: border-box;
   transition: all .2s ease-in-out;
+  font-family: "Roboto";
 }
 
 .sign-pole .sign-front h1 {
   text-transform: uppercase;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.7em;
   line-height: 1em;
   margin: 0.1em 0;
   vertical-align: middle;
@@ -519,21 +521,37 @@ body .body .left-arm-upper .left-arm-lower .shovel .shovel-end::before, body .bo
 
 .sign-pole .sign-front h3 {
   text-align: center;
-  font-size: 0.9em;
+  font-size: 0.8em;
   vertical-align: middle;
-  margin-bottom: 5px;
+  margin: 5px 0px;
 }
 
 .sign-pole .sign-top {
-  width: 8em;
-  height: 8em;
   position: absolute;
-  left: -4em;
-  margin-left: 7.5px;
-  top: -20px;
+  display: inline-block;
+  left: -25px;
+  top: -40px;
+  width: 64px;
+  height: 64px;
 }
 
-.sign-pole .sign-top-1, .sign-pole .sign-top-2, .sign-pole .sign-top-3 {
+.sign-pole .sign-top .sign-exc {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  font-size: 5em;
+  line-height: 0.5em;
+  font-family: 'Lora', serif;
+}
+
+.sign-pole .sign-top .sign-exc::selection {
+  background: none;
+}
+
+.sign-pole .sign-top .sign-top-1, .sign-pole .sign-top .sign-top-2, .sign-pole .sign-top .sign-top-3 {
   position: absolute;
   background-color: #e8dc37;
   text-align: left;
@@ -543,7 +561,7 @@ body .body .left-arm-upper .left-arm-lower .shovel .shovel-end::before, body .bo
   transform: rotate(-60deg) skewX(-30deg) scale(1, 0.866);
 }
 
-.sign-pole .sign-top-1:before, .sign-pole .sign-top-1:after, .sign-pole .sign-top-2:before, .sign-pole .sign-top-2:after, .sign-pole .sign-top-3:before, .sign-pole .sign-top-3:after {
+.sign-pole .sign-top .sign-top-1:before, .sign-pole .sign-top .sign-top-1:after, .sign-pole .sign-top .sign-top-2:before, .sign-pole .sign-top .sign-top-2:after, .sign-pole .sign-top .sign-top-3:before, .sign-pole .sign-top .sign-top-3:after {
   content: '';
   position: absolute;
   background-color: inherit;
@@ -552,45 +570,22 @@ body .body .left-arm-upper .left-arm-lower .shovel .shovel-end::before, body .bo
   border-top-right-radius: 10px;
 }
 
-.sign-pole .sign-top-1:before, .sign-pole .sign-top-2:before, .sign-pole .sign-top-3:before {
+.sign-pole .sign-top .sign-top-1:before, .sign-pole .sign-top .sign-top-2:before, .sign-pole .sign-top .sign-top-3:before {
   transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707) translate(0, -50%);
 }
 
-.sign-pole .sign-top-1:after, .sign-pole .sign-top-2:after, .sign-pole .sign-top-3:after {
+.sign-pole .sign-top .sign-top-1:after, .sign-pole .sign-top .sign-top-2:after, .sign-pole .sign-top .sign-top-3:after {
   transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
 }
 
-.sign-pole .sign-top-2 {
-  left: 0;
-  margin-left: 0;
-  top: 0;
+.sign-pole .sign-top .sign-top-2, .sign-pole .sign-top .sign-top-3 {
+  z-index: 1;
+  transform: scale(0.92);
+  transform-origin: 33% 66%;
+}
+
+.sign-pole .sign-top .sign-top-2 {
   background-color: #000;
-  width: 4em;
-  height: 4em;
-  z-index: 1;
-  transform: translate(5%, 9%);
-}
-
-.sign-pole .sign-top-2:before, .sign-pole .sign-top-2:after {
-  width: 4em;
-  height: 4em;
-}
-
-.sign-pole .sign-top-2 .sign-top-3 {
-  left: 0;
-  margin-left: 0;
-  top: 0;
-  width: 3.2em;
-  height: 3.2em;
-  border-top-right-radius: 5px;
-  z-index: 1;
-  transform: translate(3%, 6%);
-}
-
-.sign-pole .sign-top-2 .sign-top-3:before, .sign-pole .sign-top-2 .sign-top-3:after {
-  width: 3.2em;
-  height: 3.2em;
-  border-top-right-radius: 5px;
 }
 
 @media (max-width: 888px) {
