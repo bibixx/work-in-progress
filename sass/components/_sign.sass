@@ -1,44 +1,95 @@
-.sign-rear
+.sign-pole
   background: rgb(131, 131, 131)
   width: 15px
-  height: 500px
+  height: 425px
   position: absolute
   bottom: 100px
-  right: 200px
+  left: 500px
   z-index: 4
+  +transition()
 
-.sign-front
-  background: rgb(232, 220, 55)
-  bottom: 400px
-  right: 200px
-  transform: translateX(50%)
-  position: absolute
-  z-index: 5
-  padding: 15px
-  box-sizing: border-box
+  .sign-front
+    width: 220px
+    background: #e8dc37
+    top: 80px
+    left: 7.5px
+    transform: translateX(-50%)
+    position: absolute
+    z-index: 5
+    padding: 10px
+    box-sizing: border-box
+    +transition()
+    font-family: "Roboto"
 
-  h1
-    text-transform: uppercase
-    text-align: center
-    font-size: 2em
-    line-height: 1em
-    margin: 0.1em 0
-    vertical-align: middle
+    h1
+      text-transform: uppercase
+      text-align: center
+      font-size: 1.7em
+      line-height: 1em
+      margin: 0.1em 0
+      vertical-align: middle
 
-  h3
-    text-align: center
-    font-size: 0.9em
-    vertical-align: middle
-    margin-bottom: 5px
+    h3
+      text-align: center
+      font-size: 0.8em
+      vertical-align: middle
+      margin: 5px 0px
 
-.sign-top
-  // background: transparent
-  // width: 0px
-  // height: 0px
-  // border: 100px solid transparent
-  // border-color: transparent transparent #000 transparent
-  // border-width: 100px 66px
-  // position: absolute
-  // bottom: 600px
-  // right: 140px
-  // border-radius: 100px
+  .sign-top
+    position: absolute
+    display: inline-block
+    left: -25px
+    top: -40px
+    width: 64px
+    height: 64px
+
+    .sign-exc
+      position: absolute
+      bottom: 0
+      display: block
+      width: 100%
+      text-align: center
+      z-index: 2
+      font-size: 5em
+      line-height: 0.5em
+      font-family: 'Lora', serif
+      &::selection
+        background: none
+
+    .sign-top-1, .sign-top-2, .sign-top-3
+      $size: 4em
+      position: absolute
+      background-color: #e8dc37
+      text-align: left
+      width: $size
+      height: $size
+      border-top-right-radius: 10px
+      transform: rotate(-60deg) skewX(-30deg) scale(1, 0.866)
+
+      &:before, &:after
+        content: ''
+        position: absolute
+        background-color: inherit
+        width: $size
+        height: $size
+        border-top-right-radius: 10px
+
+      &:before
+        transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707) translate(0, -50%)
+
+      &:after
+        transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%)
+
+    .sign-top-2, .sign-top-3
+      z-index: 1
+      transform: scale(0.92)
+      transform-origin: 33% 66%
+
+    .sign-top-2
+      background-color: #000
+
+@media (max-width: 888px)
+  .sign-pole
+    z-index: -10
+    bottom: 200px
+    left: 140px
